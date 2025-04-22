@@ -1,0 +1,17 @@
+.row.no-gutters {
+    margin-right: 0;
+    margin-left: 0;
+  }
+
+  .row.no-gutters > [class*="col-"] {
+    padding: 4px;
+  }
+
+  .col-4 img{
+    width: 100%;
+    aspect-ratio: 1;
+    object-fit: cover;
+  }
+body{
+  font-size: small;
+}

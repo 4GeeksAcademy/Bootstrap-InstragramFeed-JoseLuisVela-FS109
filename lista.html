@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="es">
+    <!DOCTYPE html>
+    <html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="styles.css">
+        <script src="https://kit.fontawesome.com/b40df86683.js" crossorigin="anonymous"></script>
+        <title>Instagram List Bootstrap</title>
+    </head>
+    <body>
+        <nav class="navbar bg-body-tertiary">
+            <div class="container">
+              <a class="navbar-brand"><i class="fa-brands fa-instagram me-1"></i>Instagram</a>
+              <form class="d-flex justify-content-end gap-4">
+                  <button class="btn btn-success" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Create a new post</button>
+    
+                                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                            <h1 class="modal-title fs-5" id="exampleModalLabel">Create a new post</h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <span>Caption:</span>
+                                <textarea class="form-control mb-2 mt-2" placeholder="Add the caption of your post here" id="floatingTextarea"></textarea>
+    
+                                    <button class="btn btn-light btn-outline-dark me-1"><i class="fa-solid fa-camera"></i></button>
+                                    <button class="btn btn-light btn-outline-dark"><i class="fa-solid fa-location-dot"></i></button>
+    
+                            </div>
+                            <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-success">Publish</button>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+    
+                  <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          <i class="fa-solid fa-gear"></i>
+                  </button>
+                      <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                      </ul>
+              </form>
+            </div>
+          </nav>
+    
+          <ul class="nav nav-tabs mt-2 justify-content-center">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#"><i class="fa-solid fa-table-cells"></i></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#"><i class="fa-solid fa-square"></i></a>
+            </li>
+          </ul>
+          
+          <div class="container mt-4 mb-5" style="max-width: 500px;"">
+          <div class="row d-flex justify-content-center border mb-3">
+            <div class="col px-0">
+                <div class="row d-flex mt-2 me-0 px-2">
+                    <div class="col-10 md-auto d-flex justify-self-start">
+                        <h5>Mi perrito Leo</h5>
+                    </div>
+                    <div class="col-2 d-flex justify-content-end pe-0">
+                        <span class="fs-7 fw-light text-end">09/09</span>
+                    </div>
+                </div>
+                    <div class="col"><img class="img-fluid" src="https://media.istockphoto.com/id/1014940472/es/foto/imagen-panor%C3%A1mica-de-un-spitz-pomerania-blanco-en-el-prado-florido.jpg?s=612x612&w=0&k=20&c=BwnX5N8Phoxk76AWxCNUMz_sxY8gXflSYlkUwmHrBvc=" alt="Pomerania Blanco"></div>
+                    <div class="row mb-3 mt-2 px-2">
+                        <div class="col">
+                            <div class="row">
+                                <span><strong>2323 Likes</strong></span>
+                            </div>
+                            <div class="row">
+                                <span>Este es mi perrito Leo un pomerania blanco muy pesado.</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row d-flex justify-content-center border mb-3">
+                <div class="col px-0">
+                    <div class="row d-flex mt-2 px-2">
+                        <div class="col-10 md-auto d-flex justify-self-start">
+                            <h5>Clase de SP-109</h5>
+                        </div>
+                        <div class="col-2 d-flex justify-content-end">
+                            <span class="fs-7 fw-light text-end">08/09</span>
+                        </div>
+                    </div>
+                        <div class="col"><img class="img-fluid" src="https://unedmadrid.es/wp-content/uploads/2019/12/estudiantes.jpg" alt="Estudiantes"></div>
+                        <div class="row mb-3 mt-2 px-2">
+                            <div class="col">
+                                <div class="row">
+                                    <span><strong>4433 Likes</strong></span>
+                                </div>
+                                <div class="row">
+                                    <span>Clase de estudiantes de Full Stack de 4Geeks, mientras estudian.</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </div>
+            <div class="col-4"><img class="img-fluid" src="https://unedmadrid.es/wp-content/uploads/2019/12/estudiantes.jpg" alt="Estudiantes"></div>
+            <div class="col-4"><img class="img-fluid" src="https://www.elplural.com/uploads/s1/11/65/57/0/san-sebastia-n-una-de-las-mejores-ciudades-costeras-para-visitar.jpeg" alt="Ciudad costera de españa"></div>
+            <div class="col-4"><img src="https://i.scdn.co/image/ab676161000051742b03dc7b748499c113b6ba4a" alt="Yo"></div>
+            <div class="col-4"><img src="https://elflamencoensevilla.com/wp-content/uploads/2023/04/feria-de-sevilla.jpeg" alt="Feria de Sevilla">
+            </div>
+            <div class="col-4"><img src="https://fotografias.antena3.com/clipping/cmsimages02/2023/12/28/22E5CBA5-990F-4113-8E66-D8D67F3D5D26/isco-partido-betis_103.jpg?crop=2411,1808,x280,y0&width=1200&height=900&optimize=low&format=webply" alt="Isco MVP"></div>
+            <div class="col-4"><img src="https://media.istockphoto.com/id/516180836/es/foto/verde-arroz-fild-con-el-cielo-al-anochecer.jpg?s=612x612&w=0&k=20&c=TUlob2m-v6cpnwJ8e2Gz0PPmjz-vxOe3lp1beAZrURk=" alt="Campo verde"></div>
+            <div class="col-4"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzwo3jvHO5m5UkbnoDYbG-5JXwATfhj3Zs5A&s" alt="Coche de noche en blanco y negro"></div>
+            <div class="col-4"><img src="https://cdn.prod.website-files.com/655e0fa544c67c1ee5ce01c7/65afa9c723261f73e2f2b759_oWOFcOGDKFiKECC6XBFkxCgs8hwhVsjacrL36hESUu2wMlIq6nWZq7z47x3C43IqvYlt9s4GNYmUolMbkV-HOH4MZ7avB5tx3umxcP7sciTOTHXNTKi9Bpt8SP6FW02D7DkjeNP9gtGFCjk-37v6AzM.jpeg" alt="Dj a los platos en blanco y negro"></div> -->
+        </div>
+    
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
+    </body>
+</html>
